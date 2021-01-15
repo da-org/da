@@ -14,6 +14,7 @@ Client Account / Business Account (Amazon) -
 Admin Account
 ---------------------------------
 1) Dynamic Routing
+
 APIs:
 1) ClientAccountDetails 
 2) ClientAuthentication
@@ -23,6 +24,7 @@ APIs:
 6) ViewOrders
 7) UpdateOrder
 8) deleteOrder
+----------
 Scheduler:
 1) OrderRouting
 

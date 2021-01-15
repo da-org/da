@@ -1,0 +1,16 @@
+RewriteEngine on
+
+#ErrorDocument 404 http://localhost/mylocalhook/
+
+DirectoryIndex default.php
+
+#APIs
+RewriteRule qrcode/([^/]+)$ dac/controller.display.qrcode.php?qrContent=$1 [NC,L]
+RewriteRule app/profile/create/staticData dac/controller.module.api.form.static.php?action=FORM_STATIC_API [NC,L]
+RewriteRule app/profile/match/calculate dac/controller.module.matches.calculator.php?action=COUPLES_MATCH_CALCULATOR [NC,L]
+RewriteRule app/profile/surName/([^/]+)$ dac/controller.module.user.profile.php?action=CUSTOMER_PROFILES_SURNAME&surName=$1 [NC,L]
+RewriteRule app/profile/occupation/([^/]+)$ dac/controller.module.user.profile.php?action=CUSTOMER_PROFILES_OCCUPATION&occupation=$1 [NC,L]
+RewriteRule app/profile/occupationType/([^/]+)$ dac/controller.module.user.profile.php?action=CUSTOMER_PROFILES_OCCUPATIONTYPE&occupationType=$1 [NC,L]
+
+RewriteRule app/profile/highDegree/([^/]+)$ dac/controller.module.user.profile.php?action=CUSTOMER_PROFILES_HIGHDEGREE&highDegree=$1 [NC,L]
+
