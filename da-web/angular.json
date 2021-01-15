@@ -28,9 +28,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "vendor/bootstrap/css/bootstrap.min.css",
+              "vendor/metisMenu/metisMenu.min.css",
+              "vendor/sb-admin/css/sb-admin-2.css",
+              "vendor/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "vendor/jquery/jquery.min.js",
+              "vendor/bootstrap/js/bootstrap.min.js",
+              "vendor/metisMenu/metisMenu.min.js",
+              "vendor/sb-admin/js/sb-admin-2.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,6 +103,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
