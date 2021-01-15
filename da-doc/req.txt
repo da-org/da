@@ -1,0 +1,41 @@
+Website
+1) Client Account
+2) Admin Account
+3) DeliveryBoy Account ()
+-------------------------------
+Client Account / Business Account (Amazon) - 
+-------------------------------
+0) Login
+1) Dashboard
+2) Manage Orders  (CRUD)
+3) Order History
+   logout
+---------------------------------
+Admin Account
+---------------------------------
+1) Dynamic Routing
+APIs:
+1) ClientAccountDetails 
+2) ClientAuthentication
+3) ClientRegister
+4) ClientEmailValidation
+5) CreateOrder
+6) ViewOrders
+7) UpdateOrder
+8) deleteOrder
+Scheduler:
+1) OrderRouting
+
+Orders (OrderId, DeliveryType{Pickup/Drop}, DeliveryMode, From Address{With Latitude/Longitude}, ToAddress{With Latitude/Longitude}, OrderStatus)
+DeliveryMode - INSTANT (No Cancel)/ SCHEDULER (Timeline 2 hours - Cancel)
+Dashboard + API
+ INSTANT - Next hour (Routing)
+ SCHEDULDER - 2 hours 
+
+API
+{"status":"","desc":""}
+
+window.session - 
+500
+  1Km - Rs.6
+ 10Km - Rs. 60
