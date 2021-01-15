@@ -1,5 +1,37 @@
 {
     "swagger": "2.0",
-    "paths": {},
+    "info": {
+        "title": "Client Accounts API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/v1/example": {
+            "get": {
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        }
+    },
     "definitions": {}
 }
