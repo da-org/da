@@ -1,12 +1,346 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "Client Accounts API",
-        "version": "1.0"
+        "title": "Delivery App - API Documentation",
+        "description": "This App is made up of Client Account Management Module, Client Delivery Orders Management Module. Here, in this documentation, Modules with API information are provided.",
+        "version": "1.0.0"
     },
     "paths": {
         "/api/v1/example": {
             "get": {
+                "tags": [
+                    "01. Client Account Management Module - Client Account Details"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example1": {
+            "get": {
+                "tags": [
+                    "02. Client Account Management Module - Client Authentication"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example2": {
+            "get": {
+                "tags": [
+                    "03. Client Account Management Module - Client Register"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example3": {
+            "get": {
+                "tags": [
+                    "04. Client Account Management Module - Client Email Validation"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example5": {
+            "post": {
+                "tags": [
+                    "05. Client Delivery Orders Management Module - Create Delivery Order"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example6": {
+            "get": {
+                "tags": [
+                    "06. Client Delivery Orders Management Module - View Clients Delivery Orders"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example7": {
+            "get": {
+                "tags": [
+                    "07. Client Delivery Orders Management Module - Update Delivery Order"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example8": {
+            "get": {
+                "tags": [
+                    "08. Client Delivery Orders Management Module - Cancel Delivery Order"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example9": {
+            "post": {
+                "tags": [
+                    "09. User Address Module - Add New Address"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example10": {
+            "post": {
+                "tags": [
+                    "10. User Address Module - Update Existing Address"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example11": {
+            "post": {
+                "tags": [
+                    "11. User Address Module - View User Addresses"
+                ],
+                "summary": "Listing new basic product",
+                "parameters": [
+                    {
+                        "name": "clientId",
+                        "in": "header",
+                        "description": "passing clientId from headers",
+                        "required": true,
+                        "type": "integer",
+                        "example": 1
+                    },
+                    {
+                        "name": "accessToken",
+                        "in": "header",
+                        "description": "passing accessToken from headers",
+                        "type": "string",
+                        "example": "tyedgfhjgu"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An example resource"
+                    }
+                }
+            }
+        },
+        "/api/v1/example12": {
+            "post": {
+                "tags": [
+                    "12. User Address Module - Delete User Address"
+                ],
                 "summary": "Listing new basic product",
                 "parameters": [
                     {
